@@ -1,0 +1,26 @@
+theme = "hugo-theme-nix"
+baseURL = "http://dmi3kno.github.io"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[params]
+  GithubID = "dmi3kno"
+  TwitterID = "dmi3k"
+  LinkedInID = "dperepolkin"
+  disqusShortname = "dmi3kno"
+  Name = "Data Drive"
+  HeaderUsername = "dmi3kno"
+  HeaderHostname = "github.io"
+  Email = "dperepolkin@gmail.com"
+  About = "Enabling better commercial decisions through data and analytics"
+  ProfilePicture = "./images/logo.png"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 1
+    url = "/post"
+  [[menu.header]]
+    name = "my_cv"
+    weight = 0
+    url = "/cv"
