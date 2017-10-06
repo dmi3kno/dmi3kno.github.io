@@ -1,13 +1,18 @@
 language: r
-cache: packages
+dist: trusty
+sudo: false
+
 branches:
     only:
         - source
-r_github_packages:
-    - rstudio/blogdown
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
 
 before_script:
-    - Rscript -e 'blogdown::install_hugo(version = "0.20.7")'
+    - Rscript -e 'blogdown::install_hugo()'
 
 script:
     - Rscript -e 'blogdown::build_site()'
