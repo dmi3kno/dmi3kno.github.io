@@ -1,2 +1,2 @@
 # dmi3kno.github.io
-personal blog
+my personal blog
