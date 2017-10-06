@@ -1,6 +1,8 @@
-Package: placeholder
-Type: Website
-Title: Does not matter.
+Package: dmi3kno.github.io
+Type: blog
+Title: Data Drive
 Version: 0.0.1
-Imports: blogdown
-Remotes: rstudio/blogdown
+Imports: 
+  blogdown,
+  ggplot2,
+  knitr
