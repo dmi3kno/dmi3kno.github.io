@@ -1,0 +1,16 @@
+---
+title: Making this blog
+author: Dmytro Perepolkin
+date: '2017-10-06'
+slug: making-this-blog
+categories: [blog]
+tags:
+  - blog
+  - blogdown
+  - travis-ci
+  - github
+---
+
+## How to blogdown
+
+There are plenty of guides onlin
